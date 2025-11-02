@@ -5,6 +5,18 @@ main {
   @apply min-h-screen w-full text-white text-4xl flex-col items-center justify-between py-32 px-16 bg-white dark:bg-black sm:items-start mx-auto;
 }
 
+.bg-iphone-black {
+  background-color: black;
+}
+.bg-iphone-white {
+  background-color: #f6f5f8;
+}
+
+.cstm-container {
+  width: 90%;
+  margin: 0 auto;
+}
+
 /* @custom-variant dark (&:is(.dark *));
 
 @theme inline {
